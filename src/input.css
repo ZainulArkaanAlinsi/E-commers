@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-link {
+    @apply text-xl hover:text-manggo transition duration-150 ease-in-out;
+}
+
+.muka-orang {
+    @apply aspect-square w-12 object-cover rounded-full;
+}
+
+.gambar-orang-ditengah {
+    @apply bg-manggo w-3/4 aspect-square rounded-full absolute top-0 left-0 translate-y-2/4 translate-x-[20%] bg-opacity-70 blur-2xl -z-10;
+}
+
